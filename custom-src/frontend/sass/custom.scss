@@ -11,4 +11,9 @@ $suse-theme-primary: mat-palette($suse-primary);
 $suse-theme-warn: mat-palette($mat-red);
 $stratos-theme: mat-light-theme($suse-theme-primary, $suse-theme-primary, $suse-theme-warn);
 
+$dark-primary: $suse-theme-primary;
+$dark-accent: $suse-theme-primary;
+$dark-warn: mat-palette($mat-red);
+$stratos-dark-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
+
 @import "custom/suse"

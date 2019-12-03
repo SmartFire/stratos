@@ -102,18 +102,6 @@ body.stratos {
   }
 
   .dark-theme {
-    $dark-primary: $suse-theme-primary;
-    $dark-accent: $suse-theme-primary;
-    $dark-warn: mat-palette($mat-red);
-    $dark-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
-
-    $stratos-theme: $dark-theme;
-    $stratos-nav-theme: null !default;
-    $stratos-status-theme: null !default;
-
-    @include angular-material-theme($dark-theme);
-    @include app-theme($stratos-theme, $stratos-nav-theme, $stratos-status-theme);
-
     .page-content > .page-header {
       border-bottom: solid 1px rgba(255, 255, 255, 0.12);
     }
